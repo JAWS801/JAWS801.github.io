@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>MowbotIQ</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="mowbot.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>MowbotIQ</h1>
+            <div>
+                <img src="robo-mower-1.jpg" alt="robo-mower-lawn">
+            </div>
+        </header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="contact.html">Free Quote</a>
+        </nav>
+        <main>
+            <p>Drop your info below to recieve a free quote of installation of your new mower below!</p>
+            <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+                <label for="myFName">*First Name: </label>
+                <input type="text" name="myFName" id="myFName">
+
+                <label for="myLName">*Last Name: </label>
+                <input type="text" name="myLName" id="myLName">
+
+                <label for="phone-number">*Phone: </label>
+                <input type="tel" name="phone-number" id="phone-number" maxlength="12">
+
+                <label for="email">*E-mail: </label>
+                <input type="email" name="email" id="email">
+
+                <label for="address">Address: </label>
+                <input type="text" name="address" id="address">
+
+                <input type="checkbox" name="service" id="service" value="yes"> Check box if interested in our edging service<br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </main>
+
+        <footer>
+            <small><i>Copyright &copy; <br>
+                </i></small>
+            <strong>Contact me at</strong> <a href="mailto:cole@mowbotiq.com">cole@mowbotiq.com</a>
+        </footer>
+    </div>
+</body>
+
+</html>

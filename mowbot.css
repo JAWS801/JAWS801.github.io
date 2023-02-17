@@ -1,0 +1,95 @@
+body {
+    color: #90ee90;
+    background-image: linear-gradient(to bottom, #FFFFFF, #808080);
+    background-repeat: no-repeat;
+}
+
+#wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    text-align: center;
+    border: 3px solid black;
+    background-color: darkslategray;
+}
+
+nav {
+    float: left;
+    border: 3px solid black;
+    padding: 10px;
+    width: 90px;
+    margin-left: auto;
+    font-size: large;
+    background-color: rgb(87, 86, 86);
+}
+
+main {
+    float: left;
+    padding: 10px;
+    margin-left: 160px;
+    background-color: #808080;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+    background-color: #808080;
+    clear: both;
+}
+
+#paragraph {
+    margin-left: auto;
+    margin: 10px;
+    border: 3px solid black;
+    float: left;
+    width: 350px;
+    padding: 10px;
+}
+
+#list {
+    margin-left: auto;
+    margin: 10px;
+    border: 3px solid black;
+    float: right;
+    width: auto;
+    padding: 10px;
+}
+
+table {
+    background-color: #FFFFFF;
+    color: black;
+    border: 5px solid green;
+}
+
+tr:nth-of-type(odd) {
+    background-color: rgb(211, 212, 214);
+}
+
+form {
+    background-color: #EAEAEA;
+    font-family: Arial, sans-serif;
+    width: 350px;
+    padding: 10px;
+    color: black;
+}
+
+input[type="submit"] {
+    margin-left: auto;
+}
+
+input {
+    display: block;
+    margin-top: 10px;
+}
+
+nav a:hover {
+    color: red;
+    transition-duration: 2s;
+}
+
+a:visited {
+    color: inherit;
+}
